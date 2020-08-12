@@ -17,7 +17,7 @@ cd abm-build
 
 3. Configure the application providing `DEAL_II_DIR` and `CMAKE_BUILD_TYPE` (Release or Debug)
 ```
-cmake ../abm -DDEAL_II_DIR=~/development/tpl/dealii -DCMAKE_BUILD_TYPE=Release
+cmake ../abm -DDEAL_II_DIR=/path/to/dealii -DCMAKE_BUILD_TYPE=Release
 ```
 
 4. Run the example
